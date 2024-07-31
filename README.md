@@ -1,1 +1,2 @@
-# notion-image-carousel
+# portfolio-embed
+animated image carousel for portfolio (embeddable)
