@@ -1,5 +1,5 @@
-# image carousel portfolio embed: notion
+# image carousel embed
 
 animated image carousel for personal image portfolio (embeddable)
 
-for notion
+originally for notion
