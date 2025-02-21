@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Blocks to update when adding new images indicated below -->
+
 <!-- meta information, doc title, link to stylesheets -->
 <head>
   <meta charset="UTF-8">
@@ -45,7 +47,7 @@
         opacity: 1;
         }
 
-
+/* ------------- UPDATE ------------------------------ */
         /* Images in gallery  */
         .slide:first-child {
         background: url("./gallery/1.jpg") no-repeat
@@ -83,6 +85,13 @@
         background-size:contain;
         }
 
+        .slide:nth-child(7) {
+        background: url("./gallery/7.jpg") no-repeat
+            center center/cover;
+        background-size:contain;
+        }
+
+/* ------------------------------------------------------- */
 
         /* Buttons to navigate carousel */
         .buttons button#prev {
@@ -151,6 +160,8 @@
 <body>
   <!-- partial:index.partial.html -->
    <!-- Number of "slides" here corresponds to number of images -->
+
+<!-- ---------- UPDATE ------------------------->
   <div class="slider">
     <div class="slide current"></div>
     <div class="slide"></div>
@@ -158,6 +169,9 @@
     <div class="slide"></div>
     <div class="slide"></div>
     <div class="slide"></div>
+    <div class="slide"></div>
+
+<!-- ----------------------------------------- -->
 
   </div>
   <div class="buttons">
